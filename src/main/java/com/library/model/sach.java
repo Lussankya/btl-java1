@@ -1,4 +1,4 @@
-package org.example.model;
+package com.library.model;
 
 public class sach {
     private String maSach;
