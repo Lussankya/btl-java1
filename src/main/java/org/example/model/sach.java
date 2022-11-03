@@ -26,8 +26,8 @@ public class sach {
         this.soLuong = soLuong;
         this.nxb = nxb;
         this.ngayNhap = ngayNhap;
-        this.ndtt = ndtt;
-        this.hinh = hinh;
+        this.ndtt = ndtt; // nội dung tiêu đề sách
+        this.hinh = hinh; // hình ảnh bìa sách
     }
 
     public String getMaSach() {
@@ -105,5 +105,7 @@ public class sach {
     public String toString(){
         return tenSach;
     }
+
+
 }
 
