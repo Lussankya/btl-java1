@@ -1,4 +1,4 @@
-package org.example.model;
+package com.library.model;
 
 import javax.swing.*;
 import java.awt.*;
