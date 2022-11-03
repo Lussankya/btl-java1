@@ -38,7 +38,6 @@ public class Lop {
             this.ten = ten;
         }
 
-        @Override
         public String toString() {
             return this.ten;
         }
