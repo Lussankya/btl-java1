@@ -1,9 +1,8 @@
 package com.library.model;
 
 import javax.swing.*;
-import java.awt.*;
 
-public class sach {
+public class Sach {
     private String maSach;
     private String tenSach;
     private String maTheLoai;
@@ -15,14 +14,14 @@ public class sach {
     private String hinh;
     private JTextPane textPane1;
 
-    public sach() {
+    public Sach() {
     }
 
-    public sach(String maSach) {
+    public Sach(String maSach) {
         this.maSach = maSach;
     }
 
-    public sach(String maSach, String tenSach, String maTheLoai, String tacGia, int soLuong, String nxb, String ngayNhap, String ndtt, String hinh) {
+    public Sach(String maSach, String tenSach, String maTheLoai, String tacGia, int soLuong, String nxb, String ngayNhap, String ndtt, String hinh) {
         this.maSach = maSach;
         this.tenSach = tenSach;
         this.maTheLoai = maTheLoai;
