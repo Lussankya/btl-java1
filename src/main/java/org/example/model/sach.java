@@ -1,5 +1,8 @@
 package org.example.model;
 
+import javax.swing.*;
+import java.awt.*;
+
 public class sach {
     private String maSach;
     private String tenSach;
@@ -10,6 +13,7 @@ public class sach {
     private String ngayNhap;
     private String ndtt;
     private String hinh;
+    private JTextPane textPane1;
 
     public sach() {
     }
@@ -101,9 +105,12 @@ public class sach {
     public void setHinh(String hinh) {
         this.hinh = hinh;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return tenSach;
     }
 }
+
+
 
