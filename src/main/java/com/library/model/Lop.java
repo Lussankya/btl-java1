@@ -37,7 +37,8 @@ public class Lop {
         public void setTen(String ten) {
             this.ten = ten;
         }
-
+        
+        @Override
         public String toString() {
             return this.ten;
         }
