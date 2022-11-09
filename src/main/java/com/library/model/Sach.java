@@ -12,7 +12,6 @@ public class Sach {
     private String ngayNhap;
     private String ndtt;
     private String hinh;
-    private JTextPane textPane1;
 
     public Sach() {
     }
